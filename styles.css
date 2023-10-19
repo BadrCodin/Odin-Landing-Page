@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+}
+.first-part, .footer {
+   background-color: #1F2937;
+}
+
+.first-part {
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.content-one {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    align-items: flex-start;
+    
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+   
+}
+
+.sub-hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.ravel {
+    width: 400px;
+    height: auto;
+    display: flex;
+}
+
+.subheader-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 6px ;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    
+}
+
+.second-part {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 100px;
+}
+
+.composers {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 30px;
+}
+
+.info {
+    max-width: 200px;
+}
