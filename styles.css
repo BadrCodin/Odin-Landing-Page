@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -9,14 +10,9 @@ body {
    background-color: #1F2937;
 }
 
+/*first-section*/
 .first-part {
     padding-bottom: 100px;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 16px
 }
 
 .header-container {
@@ -32,6 +28,18 @@ ul {
     margin-top: 7px;
 }
 
+.piano-logo {
+    width: 60px;
+    height: auto;
+   
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px
+}
+
 a {
     text-decoration: none;
     font-size: 18px;
@@ -42,7 +50,7 @@ a {
 .content-one {
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 500px;
     align-items: flex-start;
     
 }
@@ -71,7 +79,7 @@ a {
     gap: 90px;
 }
 
-button {
+.sign-up-button-one {
     background-color: #3882F6;
     border-radius: 6px ;
     color: white;
@@ -85,6 +93,7 @@ button {
     
 }
 
+/*second-section*/
 .second-part {
     display: flex;
     justify-content: center;
@@ -103,3 +112,73 @@ button {
 .info {
     max-width: 200px;
 }
+
+/*third-section*/
+.third-part {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+/*fourth-section*/
+.fourth-part {
+    background-color: #3882F6;
+    margin: 100px 300px;
+    padding: 50px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+
+.sign-up-text {
+    color: #F9FAF8;
+}
+
+.sign-up-button-two {
+    background-color: #3882F6;
+    border-radius: 6px ;
+    color: white;
+    padding: 10px 40px;
+    border-color: white;
+}
+
+.white {
+    color: antiquewhite
+}
+
+.green {
+    color: mediumaquamarine;
+}
+
+.red {
+    color: crimson;
+}
+
+.black {
+    color: black;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
